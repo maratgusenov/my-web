@@ -1,0 +1,21 @@
+$primaryColor: red;
+$secondaryColor: blue;
+
+html {
+   font-family: generalFont;
+}
+
+h1 {
+   color: $primaryColor;
+}
+
+.container{
+   &__subtitle {
+   color: $secondaryColor;
+   display: block;
+   height: 2000px;
+   background: url("../images/medved.jpg");
+   display: flex;
+   justify-content: center;
+   }
+}
